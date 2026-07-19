@@ -17,6 +17,92 @@ Every notebook demonstrates concepts learned during the training along with prac
 
 ---
 
+## 📂 Repository Structure
+
+```text
+AI-DS-Summer-Training/
+│
+├── 📁 01_Python/
+│   ├── Variables & Data Types.ipynb
+│   ├── Operators.ipynb
+│   ├── Conditional Statements.ipynb
+│   ├── Loops.ipynb
+│   ├── Functions.ipynb
+│   ├── Strings.ipynb
+│   ├── Lists.ipynb
+│   ├── Tuples.ipynb
+│   ├── Dictionaries.ipynb
+│   ├── Sets.ipynb
+│   ├── File Handling.ipynb
+│   └── OOP.ipynb
+│
+├── 📁 02_NumPy/
+│   ├── Array Creation.ipynb
+│   ├── Indexing & Slicing.ipynb
+│   ├── Array Operations.ipynb
+│   ├── Broadcasting.ipynb
+│   ├── Universal Functions.ipynb
+│   └── Random Module.ipynb
+│
+├── 📁 03_Pandas/
+│   ├── Series.ipynb
+│   ├── DataFrames.ipynb
+│   ├── Reading CSV Files.ipynb
+│   ├── Data Cleaning.ipynb
+│   ├── Missing Values.ipynb
+│   ├── GroupBy.ipynb
+│   ├── Merge & Join.ipynb
+│   └── Aggregation.ipynb
+│
+├── 📁 04_Data_Visualization/
+│   ├── Matplotlib Basics.ipynb
+│   ├── Line Plot.ipynb
+│   ├── Bar Chart.ipynb
+│   ├── Scatter Plot.ipynb
+│   ├── Histogram.ipynb
+│   ├── Box Plot.ipynb
+│   ├── Heatmap.ipynb
+│   └── Seaborn Basics.ipynb
+│
+├── 📁 05_Statistics/
+│   ├── Descriptive Statistics.ipynb
+│   ├── Probability.ipynb
+│   ├── Correlation.ipynb
+│   ├── Covariance.ipynb
+│   └── Distributions.ipynb
+│
+├── 📁 06_Machine_Learning/
+│   ├── Linear Regression.ipynb
+│   ├── Logistic Regression.ipynb
+│   ├── KNN.ipynb
+│   ├── Decision Tree.ipynb
+│   ├── Random Forest.ipynb
+│   ├── Naive Bayes.ipynb
+│   ├── Support Vector Machine.ipynb
+│   └── K-Means Clustering.ipynb
+│
+├── 📁 07_Datasets/
+│   ├── SampleSuperstore.csv
+│   ├── Salary_Data.csv
+│   └── ...
+│
+├── 📁 08_Assignments/
+│   ├── Assignment-1.ipynb
+│   ├── Assignment-2.ipynb
+│   └── ...
+│
+├── 📁 09_Projects/
+│   ├── Project-1/
+│   ├── Project-2/
+│   └── ...
+│
+├── 📄 requirements.txt
+├── 📄 LICENSE
+├── 📄 .gitignore
+└── 📄 README.md
+```
+
+
 ## 🎯 Objectives
 
 - Learn Python for Data Science
@@ -30,26 +116,6 @@ Every notebook demonstrates concepts learned during the training along with prac
 
 ---
 
-# 📂 Repository Structure
-
-```
-AI-DS-Summer-Training/
-│
-├── Python/
-├── NumPy/
-├── Pandas/
-├── Data Visualization/
-├── Statistics/
-├── Machine Learning/
-├── Datasets/
-├── Assignments/
-├── Projects/
-└── README.md
-```
-
-*(Folder names may vary depending on repository organization.)*
-
----
 
 # 📚 Topics Covered
 
