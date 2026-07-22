@@ -2,12 +2,15 @@ import pandas as pd
 import numpy as np 
 import pickle as pk 
 import streamlit as st
+import os
 
-model = pk.load(open('model.pkl','rb'))
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+model = pk.load(open(os.path.join(base_dir, 'model.pkl'), 'rb'))
 
 st.header('Car Price Prediction ML Model')
 
-cars_data = pd.read_csv('Cardetails.csv')
+cars_data = pd.read_csv(os.path.join(base_dir, 'Cardetails.csv'))
 
 def get_brand_name(car_name):
     car_name = car_name.split(' ')[0]

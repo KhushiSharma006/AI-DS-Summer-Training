@@ -4,12 +4,15 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
+import os
 
 st.set_page_config(page_title="Car Selling Price Prediction", page_icon="🚗")
 
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
 @st.cache_resource
 def train_model():
-    cars_data = pd.read_csv("Cardetails.csv")
+    cars_data = pd.read_csv(os.path.join(base_dir, "Cardetails.csv"))
     cars_data = cars_data.drop(columns=["torque"])
     cars_data = cars_data.dropna()
 
